@@ -1,11 +1,11 @@
 {
   "files": [
     {
-      "pattern": "app-local-maven-libs-release-local/org/jfrog/example/gradle/webservice/*/*.war",
-      "target": "war/webservice.war",
+      "pattern": "app-virtual-maven-libs-release/ant/ant/1.4.1/*/*.jar",
+      "target": "jar/ant-1.4.1.jar",
       "props": "unit-test=pass",
       "flat": "true",
-      "build": "gradle-release/LATEST"
+      "build": "test123/LATEST"
     }
   ]
 }
