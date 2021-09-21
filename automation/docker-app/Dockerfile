@@ -1,3 +1,4 @@
+docker login --username neophytosmichael --password
 FROM registry/bitnami/tomcat:latest
 
 ADD war/*.war /usr/local/tomcat/webapps/
