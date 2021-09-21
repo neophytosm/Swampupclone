@@ -1,6 +1,6 @@
 FROM neophytosmichael/test123
 
-ADD war/*.war /usr/local/tomcat/webapps/
+ADD jar/*.jar /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
