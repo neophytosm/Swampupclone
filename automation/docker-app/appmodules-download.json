@@ -1,11 +1,11 @@
 {
   "files": [
     {
-      "pattern": "gradle-release-local/org/jfrog/example/gradle/webservice/*/*.war",
+      "pattern": "app-local-maven-libs-release-local/org/jfrog/test/multi3/3.7-SNAPSHOT/multi3-3.7-20210915.185048-1.war",
       "target": "war/webservice.war",
       "props": "unit-test=pass",
       "flat": "true",
-      "build": "gradle-release/LATEST"
+      "build": "MavenTest1/LATEST"
     }
   ]
 }
