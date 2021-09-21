@@ -1,7 +1,7 @@
-FROM jfrog.local:5003/docker-framework:latest
+FROM https://registry.hub.docker.com/repository/docker/neophytosmichael/test123
 
-MAINTAINER Stanley Fong stanleyf@jfrog.com
+ADD war/*.war /usr/local/tomcat/webapps/
 
-ADD war/*.war /home/exec/tomcat/webapps/swampup.war
+EXPOSE 8080
 
-CMD /bin/bash -c cd /home/exec; /home/exec/tomcat/bin/catalina.sh run
+CMD [“catalina.sh”, “run”]
