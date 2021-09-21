@@ -1,4 +1,4 @@
-FROM https://registry.hub.docker.com/repository/docker/neophytosmichael/test123
+FROM https://registry.hub.docker.com/repository/docker/neophytosmichael/test123:latest
 
 ADD war/*.war /usr/local/tomcat/webapps/
 
