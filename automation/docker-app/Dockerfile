@@ -1,4 +1,4 @@
-FROM registry/bitnami/tomcat:latest
+FROM registry/docker-docker/bitnami/tomcat:latest
 
 ADD war/*.war /usr/local/tomcat/webapps/
 
